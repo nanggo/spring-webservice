@@ -2,6 +2,7 @@ package com.nangggo.springwebservice.service;
 
 import com.nangggo.springwebservice.domain.posts.Posts;
 import com.nangggo.springwebservice.domain.posts.PostsRepository;
+import com.nangggo.springwebservice.dto.PostsMainResponseDto;
 import com.nangggo.springwebservice.dto.posts.PostsSaveRequestDto;
 import org.junit.After;
 import org.junit.Test;
@@ -44,5 +45,18 @@ public class PostServiceTest {
         assertThat(posts.getAuthor()).isEqualTo(dto.getAuthor());
         assertThat(posts.getContent()).isEqualTo(dto.getContent());
         assertThat(posts.getTitle()).isEqualTo(dto.getTitle());
+    }
+
+    @Test
+    public void 초기_저장된_데이터_확인() {
+        //given
+        //when
+        PostsMainResponseDto response = postsService.findAllDesc().get(0);
+
+        //then
+//        assertThat(response.getTitle()).is("테스트2");
+        assertThat(response.getAuthor()).isEqualTo("test2@gmail.com");
+        assertThat(response.getTitle()).isEqualTo("테스트2");
+        assertThat(response.getId().toString()).isEqualTo("2");
     }
 }
