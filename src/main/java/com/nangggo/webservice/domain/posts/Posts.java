@@ -1,7 +1,7 @@
-package com.nangggo.springwebservice.domain.posts;
+package com.nangggo.webservice.domain.posts;
 
 
-import com.nangggo.springwebservice.domain.BaseTimeEntity;
+import com.nangggo.webservice.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;

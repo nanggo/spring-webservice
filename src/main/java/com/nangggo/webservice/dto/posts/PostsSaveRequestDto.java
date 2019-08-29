@@ -1,6 +1,6 @@
-package com.nangggo.springwebservice.dto.posts;
+package com.nangggo.webservice.dto.posts;
 
-import com.nangggo.springwebservice.domain.posts.Posts;
+import com.nangggo.webservice.domain.posts.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

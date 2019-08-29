@@ -1,4 +1,4 @@
-package com.nangggo.springwebservice.web;
+package com.nangggo.webservice.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

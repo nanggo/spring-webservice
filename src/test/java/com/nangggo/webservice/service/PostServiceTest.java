@@ -1,9 +1,8 @@
-package com.nangggo.springwebservice.service;
+package com.nangggo.webservice.service;
 
-import com.nangggo.springwebservice.domain.posts.Posts;
-import com.nangggo.springwebservice.domain.posts.PostsRepository;
-import com.nangggo.springwebservice.dto.PostsMainResponseDto;
-import com.nangggo.springwebservice.dto.posts.PostsSaveRequestDto;
+import com.nangggo.webservice.domain.posts.Posts;
+import com.nangggo.webservice.domain.posts.PostsRepository;
+import com.nangggo.webservice.dto.posts.PostsSaveRequestDto;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,7 +1,5 @@
-package com.nangggo.springwebservice.domain.posts;
+package com.nangggo.webservice.domain.posts;
 
-import com.nangggo.springwebservice.domain.posts.Posts;
-import com.nangggo.springwebservice.domain.posts.PostsRepository;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

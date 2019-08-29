@@ -1,4 +1,4 @@
-package com.nangggo.springwebservice.domain.posts;
+package com.nangggo.webservice.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
