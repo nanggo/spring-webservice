@@ -1,6 +1,6 @@
-package com.nangggo.webservice.dto.posts;
+package com.nanggo.webservice.dto.posts;
 
-import com.nangggo.webservice.domain.posts.Posts;
+import com.nanggo.webservice.domain.posts.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

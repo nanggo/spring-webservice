@@ -1,7 +1,7 @@
-package com.nangggo.webservice.web;
+package com.nanggo.webservice.web;
 
-import com.nangggo.webservice.dto.posts.PostsSaveRequestDto;
-import com.nangggo.webservice.service.PostsService;
+import com.nanggo.webservice.dto.posts.PostsSaveRequestDto;
+import com.nanggo.webservice.service.PostsService;
 import lombok.AllArgsConstructor;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;

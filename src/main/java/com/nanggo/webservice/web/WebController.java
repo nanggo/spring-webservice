@@ -1,6 +1,6 @@
-package com.nangggo.webservice.web;
+package com.nanggo.webservice.web;
 
-import com.nangggo.webservice.service.PostsService;
+import com.nanggo.webservice.service.PostsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 

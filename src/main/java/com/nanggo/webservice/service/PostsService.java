@@ -1,8 +1,8 @@
-package com.nangggo.webservice.service;
+package com.nanggo.webservice.service;
 
-import com.nangggo.webservice.domain.posts.PostsRepository;
-import com.nangggo.webservice.dto.PostsMainResponseDto;
-import com.nangggo.webservice.dto.posts.PostsSaveRequestDto;
+import com.nanggo.webservice.domain.posts.PostsRepository;
+import com.nanggo.webservice.dto.PostsMainResponseDto;
+import com.nanggo.webservice.dto.posts.PostsSaveRequestDto;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,4 +1,4 @@
-package com.nangggo.webservice.domain.posts;
+package com.nanggo.webservice.domain.posts;
 
 import org.junit.After;
 import org.junit.Test;

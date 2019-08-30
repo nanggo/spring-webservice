@@ -1,4 +1,4 @@
-package com.nangggo.webservice.web;
+package com.nanggo.webservice.web;
 
 
 import org.junit.Test;

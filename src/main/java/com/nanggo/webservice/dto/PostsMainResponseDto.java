@@ -1,6 +1,6 @@
-package com.nangggo.webservice.dto;
+package com.nanggo.webservice.dto;
 
-import com.nangggo.webservice.domain.posts.Posts;
+import com.nanggo.webservice.domain.posts.Posts;
 import lombok.Getter;
 
 import java.time.LocalDateTime;

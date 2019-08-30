@@ -1,4 +1,4 @@
-package com.nangggo.webservice.domain;
+package com.nanggo.webservice.domain;
 
 
 import lombok.Getter;
