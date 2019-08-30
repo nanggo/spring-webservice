@@ -15,7 +15,7 @@ import java.util.Arrays;
 @AllArgsConstructor
 public class WebRestController {
 
-//    private PostsRepository postsRepository;
+    //    private PostsRepository postsRepository;
     private PostsService postsService;
     private Environment env;
 
@@ -30,8 +30,9 @@ public class WebRestController {
     }
 
     @GetMapping("/profile")
-    public String getProfile(){
+    public String getProfile() {
         return Arrays.stream(env.getActiveProfiles())
+                .filter(e -> "set1".equals(e) || "set2".equals(e))
                 .findFirst()
                 .orElse("");
     }
