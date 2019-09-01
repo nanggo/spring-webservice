@@ -15,7 +15,7 @@ plugins {
 apply plugin: 'io.spring.dependency-management'
 
 group = 'com.nanggo'
-version = '0.0.3'
+version = '0.0.4'
 sourceCompatibility = '1.8'
 
 configurations {
